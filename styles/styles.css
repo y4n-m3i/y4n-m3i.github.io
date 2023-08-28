@@ -1,0 +1,65 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    /* Styles for logo */
+}
+
+.buttons {
+    /* Styles for buttons container */
+}
+
+/* Header */
+header {
+    background-image: url('header-bg.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.header-content {
+    /* Styles for header content */
+}
+
+/* Sections */
+.content {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.section-content {
+    /* Styles for section content */
+}
+
+.right {
+    float: right;
+}
+
+/* Centered Button */
+.centered-button {
+    text-align: center;
+    padding: 50px 0;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.footer-section {
+    /* Styles for footer sections */
+}
