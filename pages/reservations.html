@@ -15,7 +15,7 @@
     <!-- Navigation bar -->
     <div class="w3-top">
     <div class="w3-bar w3-grey w3-card w3-left-align w3-large">
-      <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+      <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
       <a href="/index.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white">Home</a>
       <a href="/pages/reservations.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Reservations</a>
       <a href="/pages/menu.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Menu</a>
@@ -36,23 +36,31 @@
     </div>
   </div>
 
+    <!-- Header -->
+    <header class="w3-container w3-light-grey w3-center">
+     <h1 class="w3-margin" >Reservations</h1>
+    </header>
+
+    <!-- View opening hours -->
+    <main class="w3-container w3-grey w3-center">
+    <p>We recommend viewing our opening hours before requesting a reservation.</p>
+    <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top"><a href="/pages/opening-hours.html">Opening Hours</a></button>
+  </main>
+
     <!-- Reservation Request Form -->
     <main class="w3-container w3-center w3-light-grey w3-padding-64">
         <div class="w3-content">
-            <h2>Reservation Request</h2>
-            <p>Please fill out the form below to request a reservation at Haukai Restaurant. We will get back to you as
-                soon as possible to confirm your reservation.</p>
+            <p>Please fill out the form below to request a reservation at Haukai Restaurant. <br>
+                We will get back to you as soon as possible to confirm your reservation.</p>
 
             <iframe
                 src="https://docs.google.com/forms/d/e/1FAIpQLScBpf5L3gv8d0afV5MSplexngGSrqVefO5O6Ipy8WIqfvguog/viewform?embedded=true"
-                width="640" height="1398" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-
-            <!-- You can adjust the height of the iframe to fit your form -->
+                frameborder="0" allowfullscreen></iframe>
         </div>
     </main>
 
     <!-- Footer -->
-    <footer class="w3-container w3-center" style="padding:100px 40px">
+    <footer class="w3-container w3-center">
         <div class="w3-quarter">
             <h5><a href="/pages/opening-hours.html">Opening Hours</a></h5>
             <p>Monday Closed<br>
