@@ -1,11 +1,7 @@
-/* Reset default margins and paddings */
-body, h1, h2, h3, h4, h5, h6, p {
+/* Reset default margins, paddings and font */
+body,h1,h2,h3,h4,h5,h6,p{
     margin: 0;
-    padding: 0; 
-}
-
-/* Set font family for various elements */
-body, h1, h2, h3, h4, h5, h6, p {
+    padding: 0;
     font-family: "Helvetica", sans-serif;
 }
 
@@ -15,6 +11,10 @@ a:hover {
 }
 
 /* Button settings*/
+.w3-button{
+    font-family: 'Helvetica', sans-serif;
+}
+
 .w3-button a {
     text-decoration: none;
 }
@@ -24,22 +24,18 @@ a:hover {
 }
 
 /* Navigation bar styling */
-.w3-bar, .w3-bar-item, .w3-button {
-    font-family: "Helvetica", sans-serif;
-}
-
-.w3-bar {
-    background-color: #808080;
-    overflow: hidden;
+.w3-bar,
+.w3-bar-item {
+    background-color: #4c6177;
 }
 
 .w3-bar a {
     float: left;
     display: block;
-    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    color: whitesmoke;
 }
 
 .w3-bar a:hover {
@@ -47,20 +43,38 @@ a:hover {
     color: black;
 }
 
-.w3-bar .icon {
-    display: none;
+/* Square logo */
+.haukai-logo {
+    width: 50px;
+    height: 50px;
+    float: right;
+    margin-right: 20px;
 }
 
 /* Header styling */
-.w3-container.w3-light-grey {
-    padding: 128px 16px;
+.header-home-background {
+    background-image: url('/images/restaurant.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
     text-align: center;
 }
 
-/* Explore Our Cuisine styling */
-.w3-container.w3-grey {
-    padding: 128px 50px;
+/* Adjust header text color for better visibility */
+.header-home-background h1,
+.header-home-background h3 {
+    color: #4c6177;
+    font-family: "Georgia", serif;
+}
+
+/* Text and Button Section
+Home: Explore Our Cuisine
+Reservations: View Opening Hours */
+.text-and-button{
+    background-color: #4c6177;
+    padding: 50px;
     text-align: center;
+    color: whitesmoke;
 }
 
 /* We are Haukai styling */
@@ -71,6 +85,16 @@ a:hover {
 .w3-row-padding.w3-light-grey img {
     width: 100%;
     max-width: 400px;
+}
+
+/*Section Button 
+Home: Reservation Button
+Menu: Reservation Button*/
+.section-button{
+    background-color: #4c6177;
+    padding: 64px;
+    text-align: center;
+    color: whitesmoke;
 }
 
 /* Styles for the reservation request form iframe */
@@ -85,11 +109,11 @@ a:hover {
 .map-iframe {
     width: 100%;
     height: 400px;
-    border:0;
+    border: 0;
 }
 
 /* Styles for the Google Calender iframe */
-.calender-iframe{
+.calender-iframe {
     border: 0;
     width: 1000;
     height: 1000;
@@ -98,7 +122,21 @@ a:hover {
 /* Footer styling */
 .w3-container.w3-center {
     padding: 100px 40px;
-    background-color: #808080;
+    background-color:#BE965B;
     color: black;
     text-align: center;
+}
+
+/* Footer block layout */
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Add spacing between blocks in small screen mode */
+@media (max-width: 768px) {
+    footer>div {
+        margin-bottom: 20px;
+    }
 }
