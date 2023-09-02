@@ -78,6 +78,13 @@ a:hover {
     text-align: center;
 }
 
+.header-navy-background {
+    background-color: #4c6177;
+    background-position: center;
+    padding: 100px 0;
+    text-align: center;
+}
+
 /* Header Font Color*/
 .header-home-background h1,
 .header-home-background h3,
@@ -85,12 +92,17 @@ a:hover {
 .header-menu-background h1,
 .header-menu-background h3 {
     color: #4c6177;
-    font-family: "Georgia", serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.header-navy-background h1{
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 /* Text and Button Section
 Home: Explore Our Cuisine
-Reservations: View Opening Hours */
+Reservations: View Opening Hours
+Menu: menu intro */
 .text-and-button{
     background-color: #4c6177;
     padding: 50px;
@@ -98,11 +110,7 @@ Reservations: View Opening Hours */
     color: whitesmoke;
 }
 
-/* We are Haukai styling */
-.w3-row-padding.w3-light-grey {
-    padding: 64px;
-}
-
+/* Home: We are Haukai Image styling */
 .w3-row-padding.w3-light-grey img {
     width: 100%;
     max-width: 400px;
@@ -110,7 +118,9 @@ Reservations: View Opening Hours */
 
 /*Section Button 
 Home: Reservation Button
-Menu: Reservation Button*/
+Menu: Reservation Button
+Contact: Reservation Button
+Opening Hours: Reservation Button*/
 .section-button{
     background-color: #4c6177;
     padding: 64px;
@@ -135,9 +145,11 @@ Menu: Reservation Button*/
 
 /* Styles for the Google Calender iframe */
 .calender-iframe {
-    border: 0;
-    width: 1000;
-    height: 1000;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    min-height: 450px;
+    margin: auto;
 }
 
 /* Footer styling */
