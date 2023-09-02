@@ -95,7 +95,8 @@ a:hover {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.header-navy-background h1{
+.header-navy-background h1,
+.header-navy-background h3{
     color: whitesmoke;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
