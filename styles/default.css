@@ -99,6 +99,12 @@ a:hover {
     color: whitesmoke;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+/* half section padding*/
+.w3-half{
+    padding: 16px;
+}
+
 /* Text and Button Section
 Home: Explore Our Cuisine
 Reservations: View Opening Hours
