@@ -1,98 +1,254 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<title>Menu - The Haukai</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="/styles/default.css">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Menu - The Haukai</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/styles/default.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
 
-<!-- Navigation bar -->
-<div class="w3-top">
-  <div class="w3-bar w3-grey w3-card w3-left-align w3-large">
-    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="/index.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white">Home</a>
-    <a href="/pages/reservations.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Reservations</a>
-    <a href="/pages/menu.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Menu</a>
-    <a href="/pages/gift-cards.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Gift Cards</a>
-    <a href="/pages/blog.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Blog</a>
-    <a href="/pages/contact.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contact</a>
+  <!-- Navigation bar -->
+  <div class="w3-top">
+    <div class="w3-bar w3-card left-align w3-large">
+      <img class="haukai-logo" src="/images/Dessert.png" alt="The Haukai restaurant interior"> <!-- Square logo -->
+      <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-padding-large w3-hover-white w3-large"
+        href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+      <a href="/index.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white w3-hide-small">Home</a>
+      <a href="/pages/reservations.html"
+        class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Reservations</a>
+      <a href="/pages/menu.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Menu</a>
+      <a href="/pages/gift-cards.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Gift
+        Cards</a>
+      <a href="/pages/blog.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Blog</a>
+      <a href="/pages/contact.html"
+        class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contact</a>
+    </div>
+
+    <!-- Navigation on small screens -->
+    <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+      <a href="/index.html" class="w3-bar-item w3-button w3-padding-large">Home</a>
+      <a href="/pages/reservations.html" class="w3-bar-item w3-button w3-padding-large">Reservations</a>
+      <a href="/pages/menu.html" class="w3-bar-item w3-button w3-padding-large">Menu</a>
+      <a href="/pages/gift-cards.html" class="w3-bar-item w3-button w3-padding-large">Gift Cards</a>
+      <a href="/pages/blog.html" class="w3-bar-item w3-button w3-padding-large">Blog</a>
+      <a href="/pages/contact.html" class="w3-bar-item w3-button w3-padding-large">Contact</a>
+      <a href="/pages/opening-hours.html" class="w3-bar-item w3-button w3-padding-large">Opening Hours</a>
+    </div>
   </div>
 
-  <!-- Navigation on small screens -->
-  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
-    <a href="/index.html" class="w3-bar-item w3-button w3-padding-large">Home</a>
-    <a href="/pages/reservations.html" class="w3-bar-item w3-button w3-padding-large">Reservations</a>
-    <a href="/pages/menu.html" class="w3-bar-item w3-button w3-padding-large">Menu</a>
-    <a href="/pages/gift-cards.html" class="w3-bar-item w3-button w3-padding-large">Gift Cards</a>
-    <a href="/pages/blog.html" class="w3-bar-item w3-button w3-padding-large">Blog</a>
-    <a href="/pages/contact.html" class="w3-bar-item w3-button w3-padding-large">Contact</a>
-    <a href="/pages/opening-hours.html" class="w3-bar-item w3-button w3-padding-large">Opening Hours</a>
-  </div>
-</div>
 
-<!-- Header -->
-<header class="w3-container w3-light-grey w3-center">
-  <h1 class="w3-margin">The Haukai Menu</h1>
-</header>
+  <!-- Header -->
+  <header class="w3-container w3-light-grey w3-center header-menu-background">
+    <h1 class="w3-margin">The Haukai</h1>
+    <h3 class="w3-margin"> Menu</h3>
+  </header>
 
-<!-- Main Content -->
-<main class="w3-container w3-grey w3-center">
-  <h2 class="w3-margin">menu (food and drink with illustrative images)</h2>
-</main>
+  <main>
+    <!-- Main Content -->
+    <div class="text-and-button">
+      <p class="w3-margin">menu (food and drink with illustrative images).<br>Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
+        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+        nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
 
-<!-- Footer -->
-<footer class="w3-container w3-center">
+    <!-- APPETIZERS Menu -->
+    <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+      <div class="w3-content">
+
+        <!-- image of appetizers -->
+        <div class="w3-half w3-center">
+          <img src="/images/Appetizer.png" alt="The Haukai restaurant interior">
+        </div>
+
+        <div class="w3-half">
+          <h2>APPETIZERS</h2>
+          <p> REWENA BREAD 10<br>
+            Traditional Māori bread.<br><br>
+            PAUA FRITTER 16<br>
+            Finely diced pieces of paua, served with a side salad and horopito dressing.<br><br>
+            RAW FISH 20<br>
+            Dried snapper fish marinated in coconut cream, served with tomatoes and spring onions.<br><br>
+            POACHED SALMON 22<br>
+            Salmon poached in an orange and pistachio glaze, served with rewena bread.<br><br>
+            SEAFOOD BASKET 25<br>
+            Crumbed mussels, salt and pepper squid, crumbed hoki bites and garlic prawns.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- MAIN Menu -->
+    <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+      <div class="w3-content">
+
+        <div class="w3-half">
+          <h2>MAIN</h2>
+          <p> FISH OF THE DAY 25<br>
+            Beer-battered fish and kumara fries, served with a side salad and homemade tartare.<br><br>
+            MUSSELS AND SCALLOPS 25<br>
+            Steamed mussel & scallop mousse, honey and soy broth.<br><br>
+            SEAFOOD CHOWDER 30<br>
+            Creamy chowder filled with tarakihi, prawn, hoki, scallops and mussels, served with flatbread.<br><br>
+            PORK BELLY 30<br>
+            Slow-cooked pork belly served on a bed of apple slaw with roasted kumara and crispy noodles.<br><br>
+            LAMB STEAK 33<br>
+            New Zealand lamb coated in a kawakawa crumb, served with Dijon-mustard-glazed carrots, roasted butternut
+            squash and mushroom jus.<br><br>
+            VENISON 33<br>
+            Venison crusted with Horopito, served with glazed plums, cabbage salad and red wine jus.</p>
+        </div>
+
+        <!-- image of mains -->
+        <div class="w3-half w3-center">
+          <img src="/images/Mains.png" alt="The Haukai restaurant interior">
+        </div>
+
+      </div>
+    </div>
+
+    <!-- DESSERT Menu -->
+    <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+      <div class="w3-content">
+
+        <!-- image of desserts -->
+        <div class="w3-half w3-center">
+          <img src="/images/Dessert.png" alt="The Haukai restaurant interior">
+        </div>
+
+        <div class="w3-half">
+          <h2>DESSERT</h2>
+          <p> KAPITI ICE CREAM 10<br>
+            Check for daily specials.<br><br>
+            STEAMED PUDDING 12<br>
+            Golden-syrup-flavoured steamed pudding, served with vanilla ice cream.<br><br>
+            MINI PAVLOVA 16<br>
+            Mini pavlova, served with kawakawa and lemon-infused cream and fresh fruit.<br><br>
+            BANOFFEE PIE 16<br>
+            Toffee, fresh bananas and fresh cream.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- BEVERAGES Menu -->
+    <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+      <div class="w3-content">
+
+        <div class="w3-half">
+          <h2>BEVERAGES</h2>
+          <p> RED B/G<br>
+            Terrace Edge Pinot Noir, 2012, Wairarapa 53/13<br>
+            Altitude Pinot Noir, 2010, Marlborough 64/15<br>
+            Greystone Pinot Noir, 2012, Wairarapa 73/17<br>
+            Terrace Edge, Syrah, 2012, Wairarapa 53/13<br>
+            Altitude Syrah, 2010, Marlborough 64/15<br>
+            Greystone Syrah, 2012, Wairarapa 73/17<br>
+            Pegasus Bay Merlot, 2013, Waipara 65/14<br>
+            Pegasus Bay Pinot Noir, 2013, Waipara 110<br><br>
+            WHITE<br>
+            Spade Oak Pinot Gris, 2011, Gisborne 40/10<br>
+            Maude Pinot Gris, 2017, Otago 49.50/11<br>
+            Charles Wiffen Chardonnay, 2013, Otago 48/11<br>
+            Amisfield, Riesling, 2016, Otago 53/12<br>
+            Lamont Riesling, 2010, Otago 57/13<br>
+            Elephant Hill Viognier, 2013, Hawke’s Bay 55/12<br>
+            Folium Sauvignon Blanc, 2011, Marlborough 52/11<br>
+            Billecart-Salmon Brut Reserve, France 120<br><br>
+            BEER AND CIDER<br>
+            Garage project range 11<br>
+            Tuatara range 11<br>
+            Panhead range 10<br>
+            Coopers ale 10
+            Heineken 11<br>
+            Moa cider 10<br>
+            Crooked cider 10.</p>
+        </div>
+
+        <div class="w3-half w3-center">
+          <h2>NON-ALCOHOLIC</h2>
+          <p>
+            Mineral water 4.00<br>
+            Soft drinks 4.00<br>
+            Juice 4.00<br>
+            Coffee 4.50<br>
+            Tea 3.50<br><br></p>
+
+          <!-- image of beverages -->
+          <!-- TO DO: Get PNG image on beverages -->
+          <img src="/images/beverages.png" alt="The Haukai restaurant interior">
+        </div>
+
+      </div>
+    </div>  
+
+    <!-- Reservation Button -->
+    <div class="section-button">
+      <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top"><a
+        onclick="window.location.href='/pages/reservations.html' ">Reservations</a></button>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="w3-container w3-center">
+
+    <!-- opening hours -->
     <div class="w3-quarter">
-        <h5><a href="/pages/opening-hours.html">Opening Hours</a></h5>
-        <p>Monday Closed<br>
+      <h5><a href="/pages/opening-hours.html">Opening Hours</a></h5>
+      <p>Monday Closed<br>
         Tuesday 7am – 3pm<br>
         Wednesday 7am – 10pm<br>
-        Thursday 7am – 10pm<br> 
+        Thursday 7am – 10pm<br>
         Friday 7am – 10pm<br>
         Saturday 8am – 10pm<br>
-        Sunday 8am – 3pm </p>
+        Sunday 8am – 3pm </p>
     </div>
 
+    <!-- location -->
     <div class="w3-quarter">
-        <h5><a href="/pages/contact.html">Location</a></h5>
-        <p><a href="https://goo.gl/maps/FAkTWLg7UXkYApR59">
-        1 Island Street<br>
-        Kerikeri, Bay of Islands</a></p>
+      <h5><a href="/pages/contact.html">Location</a></h5>
+      <p><a href="https://goo.gl/maps/FAkTWLg7UXkYApR59">
+          1 Island Street<br>
+          Kerikeri, Bay of Islands</a></p>
     </div>
 
+    <!-- contact -->
     <div class="w3-quarter">
-        <h5><a href="/pages/contact.html">Contact</a></h5>
-        <p>hello@thehaukai.co.nz<br>
+      <h5><a href="/pages/contact.html">Contact</a></h5>
+      <p>hello@thehaukai.co.nz<br>
         09 401 4019</p>
     </div>
 
+    <!-- social media -->
     <div class="w3-quarter">
-        <h5><a href="/pages/contact.html">Social Media</a></h5>
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
+      <h5><a href="/pages/contact.html">Social Media</a></h5>
+      <i class="fa fa-facebook-official w3-hover-opacity"></i>
+      <i class="fa fa-instagram w3-hover-opacity"></i>
+      <i class="fa fa-snapchat w3-hover-opacity"></i>
+      <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+      <i class="fa fa-twitter w3-hover-opacity"></i>
+      <i class="fa fa-linkedin w3-hover-opacity"></i>
     </div>
-</footer>
+  </footer>
 
-<script>
-// Used to toggle the menu on small screens when clicking on the menu button
-function myFunction() {
-  var x = document.getElementById("navDemo");
-  if (x.className.indexOf("w3-show") == -1) {
-    x.className += " w3-show";
-  } else { 
-    x.className = x.className.replace(" w3-show", "");
-  }
-}
-</script>
+  <script>
+    // Used to toggle the menu on small screens when clicking on the menu button
+    function myFunction() {
+      var x = document.getElementById("navDemo");
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else {
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }
+  </script>
 
 </body>
+
 </html>

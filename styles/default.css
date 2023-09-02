@@ -51,7 +51,7 @@ a:hover {
     margin-right: 20px;
 }
 
-/* Header styling */
+/* Home Header styling */
 .header-home-background {
     background-image: url('/images/restaurant.jpg');
     background-size: cover;
@@ -60,9 +60,30 @@ a:hover {
     text-align: center;
 }
 
-/* Adjust header text color for better visibility */
+/* Reservations Header styling */
+.header-reservations-background {
+    background-image: url('/images/kitchen.png');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    text-align: center;
+}
+
+/* Reservations Header styling */
+.header-menu-background {
+    background-image: url('/images/dining.jpeg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    text-align: center;
+}
+
+/* Header Font Color*/
 .header-home-background h1,
-.header-home-background h3 {
+.header-home-background h3,
+.header-reservations-background h1,
+.header-menu-background h1,
+.header-menu-background h3 {
     color: #4c6177;
     font-family: "Georgia", serif;
 }
