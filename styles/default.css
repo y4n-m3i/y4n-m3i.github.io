@@ -60,11 +60,12 @@ a:hover {
     text-align: center;
 }
 
-/* Reservations Header styling */
+/* Menu Header styling */
 .header-reservations-background {
     background-image: url('/images/kitchen.png');
     background-size: cover;
     background-position: center;
+    background-blend-mode: overlay;
     padding: 100px 0;
     text-align: center;
 }
@@ -74,6 +75,7 @@ a:hover {
     background-image: url('/images/dining.jpeg');
     background-size: cover;
     background-position: center;
+    background-blend-mode: overlay;
     padding: 100px 0;
     text-align: center;
 }
